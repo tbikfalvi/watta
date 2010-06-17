@@ -24,7 +24,7 @@ int main( int argc, char *argv[] )
     {
         cWattaMainApp  apMainApp( argc, argv );
 
-        bool          boSysTrayFound = false;
+/*        bool          boSysTrayFound = false;
         unsigned int  uiCheckCounter = 0;
         while( !boSysTrayFound && uiCheckCounter++ < 20 )
         {
@@ -34,7 +34,7 @@ int main( int argc, char *argv[] )
         if( !boSysTrayFound )
         {
             throw cSevException( cSeverity::ERROR, "Couldn't detect any system tray on this system." );
-        }
+        }*/
 
         g_poDB     = new cQTMySQLConnection;
 

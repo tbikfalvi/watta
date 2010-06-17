@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <sstream>
 #include <QMessageBox>
+#include <ctime>
 
 #include "qtlogger.h"
 
