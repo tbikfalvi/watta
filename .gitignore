@@ -26,3 +26,10 @@ src/qrc_watta.cpp
 src/qrc_watta.o
 src/ui_dlglogs.h
 src/ui_dlgpreferences.h
+src/Makefile.Debug
+src/Makefile.Release
+src/object_script.watta.Debug
+src/object_script.watta.Release
+src/release
+watta.exe
+

@@ -29,7 +29,7 @@ cDlgPreferences::cDlgPreferences( QWidget *p_poParent )
 
     m_poTrayIcon = new QSystemTrayIcon( this );
     m_poTrayIcon->setContextMenu( m_poTrayIconMenu );
-    m_poTrayIcon->setIcon( QIcon( ":/images/green.jpeg" ) );
+    m_poTrayIcon->setIcon( QIcon( ":/images/watta.ico" ) );
     m_poTrayIcon->setVisible( true );
     m_poTrayIcon->setToolTip( qsTitle );
 

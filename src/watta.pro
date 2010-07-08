@@ -29,5 +29,5 @@ SOURCES = tracer.cpp \
 DESTDIR = ..
 QT += sql
 CONFIG += qt
-CONFIG += console
+#CONFIG += console
 RESOURCES += watta.qrc
